@@ -1,13 +1,13 @@
 function Stack(...initialValues) {
-/**
- * For example, new Stack('first', 'second', 'third') creates an instance of Stack with the 'third' being on top of stack...
- * Call to Stack with empty list creates empty stack.
- * @typedef {Stack} Stack
- * @param  {...any} initialValues - comma separated list of initial stack values
- * @property {number} size - number of elements in stack at the moment
- */
+  /**
+   * For example, new Stack('first', 'second', 'third') creates an instance of Stack with the 'third' being on top of stack...
+   * Call to Stack with empty list creates empty stack.
+   * @typedef {Stack} Stack
+   * @param  {...any} initialValues - comma separated list of initial stack values
+   * @property {number} size - number of elements in stack at the moment
+   */
 
- let _head = null
+  let _head = null
   let _size = 0
 
   /**
